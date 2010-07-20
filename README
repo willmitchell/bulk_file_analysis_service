@@ -1,0 +1,20 @@
+This file is a heavily modified version of the original Ice "Hello" demo.
+The idea is that you could use this, over a manually configured SSH connection
+that may include port forwarding, to run expensive calculations on a backend
+supercomputer.
+
+The protocol provided by this service is about as simple as it can be, which
+makes this really just a proof of concept.
+
+To run this first start the server:
+
+$ python Server.py
+
+In a separate window, start the client:
+
+$ python Client.py
+
+Will Mitchell
+Noblis
+20 July 2010
+
